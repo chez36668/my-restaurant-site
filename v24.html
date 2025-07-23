@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ครัวป้าสาย อาหารตามสั่ง (หลังเลซีฟู้ด)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fafff7;
+      color: #3e4a2b;
+    }
+
+    header {
+      background-color: #aed581;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #dcedc8;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #4e5b32;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #7cb342;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #9ccc65;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #689f38;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #9ccc65;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #558b2f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #f0f4c3;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ครัวป้าสาย อาหารตามสั่ง (หลังเลซีฟู้ด)
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍽️ แผนที่ร้านครัวป้าสายอาหารตามสั่ง (หลังเลเซอร์ฟู้ด)
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านอาหารตามสั่งบรรยากาศบ้าน ๆ ใกล้เลเซอร์ฟู้ด รสชาติเข้มข้น ราคาน่ารัก เหมาะกับคนหิวในระยอง
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.432258951569!2d101.2569681!3d12.6603624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fd0061f2ea0b%3A0xfe966a3fd1b7a0cf!2z4Lit4Lij4Liy4Lij4Liq4Lij4LmA4LiZ4LmM4Liy4LiX4LiB4Lih4LmI4Liy4Lij4LiqIOC4seC5gOC4meC5iOC4o-C4peC5jOC4meC4suC4mSDguYfguKIg4Lih4Lii4Lij4LiyIOC4reC4reC4suC4muC5jA!5e0!3m2!1sth!2sth!4v1721115992139!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c61.jpg" alt="ข้าวผัดหมู">
+    <div class="order-content">
+      <div class="order-title">ข้าวผัดหมู</div>
+      <div class="order-description">ข้าวเรียงเม็ด ผัดหอมกระเทียม หมูนุ่มๆ แบบบ้านๆ</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c62.jpg" alt="กะเพราไก่ไข่ดาว">
+    <div class="order-content">
+      <div class="order-title">กะเพราไก่ไข่ดาว</div>
+      <div class="order-description">ไก่สับผัดเผ็ดหอมใบกะเพรา พร้อมไข่ดาวกรอบๆ</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c63.jpg" alt="ผัดซีอิ๊วหมู">
+    <div class="order-content">
+      <div class="order-title">ผัดซีอิ๊วหมู</div>
+      <div class="order-description">เส้นใหญ่ผัดหอมกลิ่นกระทะ ใส่หมูหมักและผักคะน้า</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c64.jpg" alt="ไข่พะโล้">
+    <div class="order-content">
+      <div class="order-title">ไข่พะโล้</div>
+      <div class="order-description">กลิ่นพะโล้หอมกลมกล่อม หมูสามชั้นตุ๋นละลายในปาก</div>
+      <div class="order-price">฿55</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>ดูร้านอื่นเพิ่มเติม?</p>
+  <a href="งาน5.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ครัวป้าสาย อาหารตามสั่ง (หลังเลซีฟู้ด) | โทร: 089-456-7788
+</footer>
+
+</body>
+</html>

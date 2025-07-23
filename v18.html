@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>อะโวน้ำดี</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #f7fff5;
+      color: #2e7d32;
+    }
+
+    header {
+      background-color: #66bb6a;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #d0f0c0;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #388e3c;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #43a047;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #81c784;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #388e3c;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #81c784;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #388e3c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #e8f5e9;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  อะโวน้ำดี
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🥑 แผนที่ร้านอะโว น้ำดี
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านเครื่องดื่มสุขภาพกลางเมืองระยอง ใช้อะโวคาโดแท้ น้ำผลไม้คั้นสด เพื่อสุขภาพดี ๆ ทุกวัน
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.819295833614!2d101.2679625!3d12.6848612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fdbb7a8d1547%3A0xfcc20063a00a4dad!2z4Lir4LiZ4LmA4Lir4LiZ4LiE4LiU4LmA4LiZ4LiE4Lij4LmM4LiZ4Liq!5e0!3m2!1sth!2sth!4v1721113997747!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c37.jpg" alt="อะโวคาโดสมูทตี้">
+    <div class="order-content">
+      <div class="order-title">อะโวคาโดสมูทตี้</div>
+      <div class="order-description">ครีมมี่เข้มข้น หวานน้อย อุดมด้วยไขมันดีและวิตามิน</div>
+      <div class="order-price">฿65</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c38.jpg" alt="น้ำผักผลไม้รวม">
+    <div class="order-content">
+      <div class="order-title">น้ำผักผลไม้รวม</div>
+      <div class="order-description">รวมผักสดผลไม้ 7 ชนิด ช่วยล้างสารพิษ ฟื้นฟูร่างกาย</div>
+      <div class="order-price">฿55</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c39.jpg" alt="น้ำมะพร้าวสด">
+    <div class="order-content">
+      <div class="order-title">น้ำมะพร้าวสด</div>
+      <div class="order-description">เติมความสดชื่นจากธรรมชาติ ช่วยฟื้นฟูผิวและความดัน</div>
+      <div class="order-price">฿40</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c40.jpg" alt="สมูทตี้บีทรูท">
+    <div class="order-content">
+      <div class="order-title">สมูทตี้บีทรูท</div>
+      <div class="order-description">บำรุงเลือด ผิวใส รสชาติเปรี้ยวหวานนุ่มนวล</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอาหารอื่น?</p>
+  <a href="งาน4.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 อะโวน้ำดี | โทร: 083-222-3344
+</footer>
+
+</body>
+</html>

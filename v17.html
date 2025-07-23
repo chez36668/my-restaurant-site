@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ปุยฝ้ายน้ำปั่น</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fff9fc;
+      color: #444;
+    }
+
+    header {
+      background: linear-gradient(to right, #f8bbd0, #f48fb1);
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #fce4ec;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(240, 98, 146, 0.15);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .order-item:hover {
+      transform: translateY(-6px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #d81b60;
+      margin-bottom: 0.4rem;
+    }
+
+    .order-description {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1.05rem;
+      font-weight: bold;
+      color: #ec407a;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #ec407a;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #d81b60;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #ffe4ee;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ปุยฝ้ายน้ำปั่น
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🥤 แผนที่ร้านปุ๋ยฝ้าย น้ำปั่น
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านน้ำปั่นสดชื่นหลากหลายเมนู รสชาติเข้มข้น หวานเย็นสะใจ ย่านใกล้เขตอำเภอบ้านฉาง จ.ระยอง
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.637372618402!2d101.1321226!3d12.7540564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102efce174ecafb%3A0x4eda3077b53c0cdb!2z4LmA4LiX4LmJ4Liy4LiZ4Lij4Lih4LiE4LiV4Lij4LmA4Lij!5e0!3m2!1sth!2sth!4v1721113667234!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c33.jpg" alt="สตรอว์เบอร์รี่ปั่น">
+    <div class="order-content">
+      <div class="order-title">สตรอว์เบอร์รี่ปั่น</div>
+      <div class="order-description">เปรี้ยวหวานสดใส หอมละมุนเหมือนฝ้าย</div>
+      <div class="order-price">฿30</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c34.jpg" alt="นมชมพูปั่น">
+    <div class="order-content">
+      <div class="order-title">นมชมพูปั่น</div>
+      <div class="order-description">กลิ่นหอม อมหวาน สีชมพูละมุนละไม</div>
+      <div class="order-price">฿25</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c35.jpg" alt="บลูเบอร์รี่โยเกิร์ต">
+    <div class="order-content">
+      <div class="order-title">บลูเบอร์รี่โยเกิร์ต</div>
+      <div class="order-description">โยเกิร์ตเปรี้ยวหวานเข้ากับบลูเบอร์รี่พอดี</div>
+      <div class="order-price">฿35</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c36.jpg" alt="กล้วยช็อกโกแลตปั่น">
+    <div class="order-content">
+      <div class="order-title">กล้วยช็อกโกแลตปั่น</div>
+      <div class="order-description">กล้วยหอม + ช็อกโกแลตเย็นๆ หวานมันนุ่มละลายใจ</div>
+      <div class="order-price">฿30</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปดูร้านอื่น?</p>
+  <a href="งาน4.html" class="back-button">← กลับเมนูรวม</a>
+</section>
+
+<footer>
+  © 2025 ปุยฝ้ายน้ำปั่น | โทร: 091-555-7890 | สดใส หวานเย็น เหมือนฝ้ายในแก้ว ☁️🍓
+</footer>
+
+</body>
+</html>

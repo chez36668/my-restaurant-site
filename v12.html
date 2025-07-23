@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านโจ๊ก บขส</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffdf6;
+      color: #333;
+    }
+
+    header {
+      background-color: #6d4c41;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2.1rem;
+      font-weight: bold;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 1px solid #e0cfc0;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .order-item:hover {
+      transform: translateY(-3px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #5d4037;
+      margin-bottom: 0.4rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.6rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #6d4c41;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #6d4c41;
+      color: white;
+      padding: 0.7rem 1.6rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #4e342e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.85rem;
+      background-color: #f7eee4;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านโจ๊ก บขส
+</header>
+<section class="map-section" style="background-color: #f8fcff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🚌 แผนที่ร้านโจ๊ก บขส. ระยอง
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    จุดเริ่มต้นความอร่อยสำหรับนักเดินทาง ร้านโจ๊กข้าง บขส. เมืองระยอง เปิดเช้าตรู่ โจ๊กหมู เครื่องใน ต้มเลือดหมู หอมกรุ่นทุกชาม
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.392681260439!2d101.2742602!3d12.6832944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fdc60c8dc031%3A0x5de6d3d5500f28d2!2z4Lit4Li44LmIIOC4geC4ueC4sCDguKrguLLguKfguYzguJcg4LmA4LiX4Li44LmC4LiZ4LiE4Lij4Liq4LiV4LiB4Lij!5e0!3m2!1sth!2sth!4v1721052200000!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c13.jpg" alt="โจ๊กหมูธรรมดา">
+    <div class="order-content">
+      <div class="order-title">โจ๊กหมูธรรมดา</div>
+      <div class="order-description">โจ๊กเนื้อนุ่ม หมูบดปรุงรส พร้อมขิงซอย ต้นหอม</div>
+      <div class="order-price">฿30</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c14.jpg" alt="โจ๊กหมูใส่ไข่">
+    <div class="order-content">
+      <div class="order-title">โจ๊กหมูใส่ไข่</div>
+      <div class="order-description">เพิ่มไข่ลวกเยิ้มๆ เพิ่มความฟินในตอนเช้า</div>
+      <div class="order-price">฿35</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c15.jpg" alt="โจ๊กรวมมิตร">
+    <div class="order-content">
+      <div class="order-title">โจ๊กรวมมิตร</div>
+      <div class="order-description">หมูบด ตับ ไข่ ขิงซอยครบเครื่อง อิ่มคุ้ม</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c16.jpg" alt="ปาท่องโก๋">
+    <div class="order-content">
+      <div class="order-title">ปาท่องโก๋</div>
+      <div class="order-description">ทอดใหม่ๆ ทุกเช้า กรอบนอกนุ่มใน จิ้มโจ๊กก็อร่อย</div>
+      <div class="order-price">฿10 / คู่</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปดูร้านอื่น?</p>
+  <a href="งาน3.html" class="back-button">← กลับเมนูรวม</a>
+</section>
+
+<footer>
+  © 2025 ร้านโจ๊ก บขส | โทร: 089-123-4567 | เปิดบริการทุกวัน 05:00 - 10:00 น.
+</footer>
+
+</body>
+</html>

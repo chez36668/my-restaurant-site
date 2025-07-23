@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านเจ๊จิ๋ม ก๋วยเตี๋ยวเส้นปลา เกี๊ยวปลา</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #f8fff8;
+      color: #2c3e50;
+    }
+
+    header {
+      background-color: #27ae60;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #d4f4dd;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #2ecc71;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #1eac5b;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #2ecc71;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #1eac5b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #eafbea;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านเจ๊จิ๋ม ก๋วยเตี๋ยวเส้นปลา เกี๊ยวปลา
+</header>
+<section class="map-section" style="background-color: #f0fff0; padding: 3rem 1rem; text-align: center;">
+  <h2 style="color: #2c3e50; font-size: 2rem; margin-bottom: 1.5rem;">
+    📍 ตำแหน่งร้านเจ๊จิ๋ม ก๋วยเตี๋ยวเส้นปลา เกี๊ยวปลา
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    แวะมาทานก๋วยเตี๋ยวอร่อยๆ ได้ที่ร้านของเราในตัวเมืองระยอง ใกล้ห้างแหลมทองระยอง เดินทางง่าย มีที่จอดรถ!
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.3442678874746!2d101.27520187595163!3d12.673775087629207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fc38af336849%3A0x6d6fe947c44f3bee!2z4Lia4LmJ4Liy4Lih4LiZ4Li04Lij4Liw4LmA4LiB4Lil4LiZ4Li04LiHIOC4quC4seC4l-C4muC4hOC5gOC4guC4seC4reC4o-C5jA!5e0!3m2!1sth!2sth!4v1721035347396!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <!-- ซ้ำได้ตามเมนูที่คุณมี -->
+  <div class="order-item">
+    <img src="image4/อาหาร1.jpg" alt="ข้าวหมูแดง">
+    <div class="order-content">
+      <div class="order-title">ข้าวหมูแดง</div>
+      <div class="order-description">กลมกล่อม หวานเค็มนำ – หมูแดงนุ่ม น้ำราดหอม หวานเค็ม ตัดเลี่ยนด้วยแตงกวาและพริกน้ำส้ม</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร2.jpg" alt="เกี๊ยวกุ้งน้ำ">
+    <div class="order-content">
+      <div class="order-title">เกี๊ยวกุ้งน้ำ</div>
+      <div class="order-description">น้ำซุปหวานนวล เกี๊ยวหอมนุ่ม กุ้งสดเด้ง พร้อมกลิ่นกระเทียมเจียว</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร3.jpg" alt="ก๋วยเตี๋ยวเกี๊ยวปลา เส้นปลา">
+    <div class="order-content">
+      <div class="order-title">ก๋วยเตี๋ยวเกี๊ยวปลา เส้นปลา</div>
+      <div class="order-description">ซุปใสหวาน หอมกลิ่นปลา เส้นเด้ง เกี๊ยวนุ่มละมุน รสอ่อนแต่กลมกล่อม</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร4.jpg" alt="ข้าวหน้าเป็ด">
+    <div class="order-content">
+      <div class="order-title">ข้าวหน้าเป็ด</div>
+      <div class="order-description">เนื้อเป็ดย่างนุ่ม น้ำราดหอมซีอิ๊ว ข้าวร้อนๆ เสิร์ฟคู่แตงกวา</div>
+      <div class="order-price">฿90</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร5.jpg" alt="เย็นตาโฟ">
+    <div class="order-content">
+      <div class="order-title">เย็นตาโฟ</div>
+      <div class="order-description">ซอสเต้าหู้ยี้เปรี้ยวหวาน ซุปกลมกล่อม พร้อมเครื่องแน่น ลูกชิ้น ปลา เต้าหู้ ผัก</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>ต้องการดูเมนูอาหารเพิ่มเติม?</p>
+  <a href="งาน1.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  086 057 9766 | ร้านเจ๊จิ๋ม ก๋วยเตี๋ยวเส้นปลา เกี๊ยวปลา
+</footer>
+
+</body>
+</html>

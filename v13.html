@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>โจ๊กบางกอก</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fafafa;
+      color: #222;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+      font-size: 2.3rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 15px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #2c3e50;
+    }
+
+    .order-description {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #27ae60;
+      margin-bottom: 1rem;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #2c3e50;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #1a242f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #ecf0f1;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  โจ๊กบางกอก
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍚 แผนที่ร้านโจ๊กบางกอก ระยอง
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านโจ๊กร้อน ๆ เปิดแต่เช้า ใจกลางเมืองระยอง ใกล้ถนนสุขุมวิท โจ๊กหมู ไข่ลวก ต้มเลือดหมู เครื่องแน่น น้ำซุปหอมกระดูกหมูแท้
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.3738610455893!2d101.271299!3d12.6825962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fd6fd9faf493%3A0x754c5f662385682c!2z4LmC4LiI4LmK4LiB4Lia4Liy4LiH4LiB4Lit4LiB!5e0!3m2!1sth!2sth!4v1721052800000!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c17.jpg" alt="โจ๊กหมูสูตรกรุงเทพ">
+    <div class="order-content">
+      <div class="order-title">โจ๊กหมูสูตรกรุงเทพ</div>
+      <div class="order-description">เนื้อโจ๊กเนียนละเอียด หมูนุ่ม คลุกขิงซอย ต้นหอม</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c18.jpg" alt="โจ๊กหมู + ไข่ออนเซ็น">
+    <div class="order-content">
+      <div class="order-title">โจ๊กหมู + ไข่ออนเซ็น</div>
+      <div class="order-description">เสิร์ฟพร้อมไข่ออนเซ็นเยิ้มๆ เพิ่มความละมุนในยามเช้า</div>
+      <div class="order-price">฿55</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c19.jpg" alt="โจ๊กแซลมอนย่าง">
+    <div class="order-content">
+      <div class="order-title">โจ๊กแซลมอนย่าง</div>
+      <div class="order-description">โจ๊กระดับพรีเมียม เสิร์ฟคู่แซลมอนย่างเกลือหอมๆ</div>
+      <div class="order-price">฿85</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c20.jpg" alt="นมถั่วเหลืองร้อน/เย็น">
+    <div class="order-content">
+      <div class="order-title">นมถั่วเหลืองร้อน/เย็น</div>
+      <div class="order-description">หวานน้อยเพื่อสุขภาพ เข้าคู่กับโจ๊กได้ดี</div>
+      <div class="order-price">฿20</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปดูร้านอื่น?</p>
+  <a href="งาน3.html" class="back-button">← ย้อนกลับเมนูรวม</a>
+</section>
+
+<footer>
+  © 2025 โจ๊กบางกอก | โทร: 099-888-4567 | เปิดทุกวัน 05:00 - 11:00 น.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ครัวลุงโรจน์ ทะเลแกงเผ็ด-ตามสั่ง</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffaf5;
+      color: #3e2723;
+    }
+
+    header {
+      background-color: #ff5722;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #ffccbc;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #5d4037;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #d84315;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #ff7043;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #e64a19;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #ff7043;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #d84315;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #ffe0b2;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ครัวลุงโรจน์ ทะเลแกงเผ็ด-ตามสั่ง
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍲 แผนที่ร้านครัวลุงโจร ทะเลเก๋งเผ็ด - ตามสั่ง
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านอาหารทะเลรสจัดจ้าน พร้อมเมนูตามสั่งหลากหลาย บรรยากาศเป็นกันเอง ใจกลางเมืองระยอง
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.319679118527!2d101.2515638!3d12.6616845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fdb45d3f8669%3A0x8c26e70baf94113!2z4Lin4Lij4Liy4Liq4Lij4LmA4LiU4Lij4LiH4Liy4LiZ4Liy4Lij4Lio4LiV4LiZ4LiX4LiE4LmI4Liy4LiB4Lix4LmI4LiB4Liy4LijIOC4meC4reC4muC5jA!5e0!3m2!1sth!2sth!4v1721115691937!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c57.jpg" alt="แกงเผ็ดทะเล">
+    <div class="order-content">
+      <div class="order-title">แกงเผ็ดทะเล</div>
+      <div class="order-description">เครื่องแกงรสเข้มข้น กุ้ง หมึก หอย สดใหม่ทุกวัน</div>
+      <div class="order-price">฿80</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c58.jpg" alt="ฉู่ฉี่ปลาทู">
+    <div class="order-content">
+      <div class="order-title">ฉู่ฉี่ปลาทู</div>
+      <div class="order-description">ปลาทูทอดราดซอสแกงฉู่ฉี่ หอมพริกแกง รสจัด</div>
+      <div class="order-price">฿70</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c59.jpg" alt="กะเพราทะเล">
+    <div class="order-content">
+      <div class="order-title">ข้าวกะเพราทะเล</div>
+      <div class="order-description">เผ็ดร้อนแบบลุงโรจน์ เครื่องทะเลแน่นๆ พร้อมไข่ดาว</div>
+      <div class="order-price">฿65</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c60.jpg" alt="ข้าวผัดพริกแกงทะเล">
+    <div class="order-content">
+      <div class="order-title">ข้าวผัดพริกแกงทะเล</div>
+      <div class="order-description">ผัดพริกแกงสูตรพิเศษ หอมมันทะเล รสจัดจ้าน</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอื่น?</p>
+  <a href="งาน5.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ครัวลุงโรจน์ ทะเลแกงเผ็ด-ตามสั่ง | โทร: 089-999-4567
+</footer>
+
+</body>
+</html>

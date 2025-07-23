@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านก๋วยเตี๋ยวป้าติ๋ม "ช้อนเงิน"</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fcfdf8;
+      color: #37474f;
+    }
+
+    header {
+      background-color: #607d8b;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #d0e6e8;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #455a64;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #0097a7;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #00acc1;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #00838f;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #00acc1;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #00838f;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #e0f7fa;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านก๋วยเตี๋ยวป้าติ๋ม "ช้อนเงิน"
+</header>
+<section class="map-section" style="background-color: #fefdf8; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #6d4c41; margin-bottom: 1rem;">
+    🍜 แผนที่ร้านก๋วยเตี๋ยวป้าติ๋ม “ช้อนเงิน”
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ก๋วยเตี๋ยวไก่ตุ๋น–หมูตุ๋น รสเข้มถึงใจ น้ำซุปสูตรน้ำข้นจากรุ่นแม่สู่รุ่นลูก ใครมาก็ต้องซดน้ำจนหมดชาม 🍲
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.576552469824!2d101.2189747!3d12.6774235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fbc6f4a6f179%3A0x4cfd4b92958934aa!2z4Lia4LmJ4Liy4Lih4LiZ4Li04Lij4Liw4LmA4LiB4Lil4LiZ4Li04LiHIOC4geC4ueC4suC4geC4o-C5jCDguK3guYXguKXguKPguK0!5e0!3m2!1sth!2sth!4v1721047123456!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/อาหาร31.jpg" alt="เส้นหมี่น้ำใส">
+    <div class="order-content">
+      <div class="order-title">เส้นหมี่น้ำใสหมูตุ๋น</div>
+      <div class="order-description">หมูนุ่ม น้ำซุปใสรสกลมกล่อม หอมอบอวล</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร32.jpg"
+    <div class="order-content">
+      <div class="order-title">เส้นใหญ่แห้งหมูเด้ง</div>
+      <div class="order-description">เส้นใหญ่เหนียวนุ่ม หมูเด้งปรุงรสเด็ด</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+  <img src="image4/อาหาร34.jpg" alt="เกี๊ยวหมูน้ำใส">
+    <div class="order-content">
+      <div class="order-title">เกี๊ยวหมูน้ำใส</div>
+      <div class="order-description">เกี๊ยวทำเอง ไส้หมูล้วน น้ำซุปสูตรคุณยาย</div>
+      <div class="order-price">฿40</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร34.jpg" alt="หมี่ขาวแห้งต้มยำ">
+    <div class="order-content">
+      <div class="order-title">หมี่ขาวแห้งต้มยำ</div>
+      <div class="order-description">แห้งแซ่บสะใจ คลุกพริกมะนาวใหม่ทุกชาม</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปดูร้านอื่น?</p>
+  <a href="งาน1.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ร้านก๋วยเตี๋ยวป้าติ๋ม "ช้อนเงิน" | โทร: 089-987-6543
+</footer>
+
+</body>
+</html>

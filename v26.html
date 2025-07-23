@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ข้าวต้มอยู่ฎี โภชนา</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffef7;
+      color: #3e2723;
+    }
+
+    header {
+      background-color: #6d4c41;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #d7ccc8;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #5d4037;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #a1887f;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #a1887f;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .order-button:hover {
+      background-color: #6d4c41;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #a1887f;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #5d4037;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #f3e5ab;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ข้าวต้มอยู่ฎี โภชนา
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍚 แผนที่ร้านข้าวต้มอุ้ยซีโพชนา
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านข้าวต้มรสเด็ดในระยอง เสิร์ฟข้าวต้มร้อน ๆ กับกับข้าวหลากหลายเมนู อร่อยจนต้องแวะ
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.888795337836!2d101.2644817!3d12.6914984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fdbd31c4a7a9%3A0x713c5076b9be6702!2z4Lit4Liq4LiX4LiZ4Liy4LmA4Liq4LiZ4Liy4Liq4LmA4Lih4Liy4LiV4Liy4Lih4LmJIOC4suC4q-C4meC4seC4suC4o-C4meC4suC4q-C4suC4oyDguJXguLLguKE!5e0!3m2!1sth!2sth!4v1721116534680!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c69.jpg" alt="ข้าวต้มหมูสับ">
+    <div class="order-content">
+      <div class="order-title">ข้าวต้มหมูสับ</div>
+      <div class="order-description">ข้าวต้มร้อน ๆ หมูสับนุ่ม น้ำซุปหอมกระเทียมเจียว</div>
+      <div class="order-price">฿40</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c70.jpg" alt="ผัดผักบุ้งไฟแดง">
+    <div class="order-content">
+      <div class="order-title">ผัดผักบุ้งไฟแดง</div>
+      <div class="order-description">หอมกระเทียม น้ำมันหอยรสกลมกล่อม กินคู่ข้าวต้มอร่อยสุด</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c71.jpg" alt="หมูทอดกระเทียม">
+    <div class="order-content">
+      <div class="order-title">หมูทอดกระเทียม</div>
+      <div class="order-description">หมูหมักหอมทอดใหม่ กรอบนอกนุ่มใน</div>
+      <div class="order-price">฿55</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c72.jpg" alt="ไข่เจียวหมูสับ">
+    <div class="order-content">
+      <div class="order-title">ไข่เจียวหมูสับ</div>
+      <div class="order-description">ฟูกรอบ หอมไข่แท้ กินคู่ข้าวต้มร้อน ๆ อิ่มสบายท้อง</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอื่น?</p>
+  <a href="งาน6.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ข้าวต้มอยู่ฎี โภชนา | โทร: 089-000-2222
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>นายหน่องข้าวต้มปลา</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #e8f5e9; /* Light green */
+      color: #1b5e20; /* Dark green */
+    }
+
+    header {
+      background-color: #388e3c; /* Medium green */
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #a5d6a7; /* Light green border */
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #2e7d32; /* Slightly darker green */
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #43a047; /* Green */
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #66bb6a; /* Lighter green */
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .order-button:hover {
+      background-color: #2e7d32; /* Darker green */
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #66bb6a; /* Lighter green */
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #2e7d32; /* Darker green */
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #c8e6c9; /* Very light green */
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  นายหน่องข้าวต้มปลา
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍚 แผนที่ร้านนายหน่องข้าวต้มปลา
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านนายหน่องข้าวต้มปลา ร้านดังในระยอง รสชาติเข้มข้น บรรยากาศอบอุ่น
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7792135999373!2d101.2707227!3d12.6821784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fd081b921a21%3A0x8b556beab0298d5c!2z4LiI4Liq4LmJ4LiX4Lit4Lij4LiH4LiA4Liq4LiX4Liq4LiZ4LmJ4LiX!5e0!3m2!1sth!2sth!4v1721116884432!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c81.jpg" alt="ข้าวต้มปลาอินทรี">
+    <div class="order-content">
+      <div class="order-title">ข้าวต้มปลาอินทรี</div>
+      <div class="order-description">ปลาอินทรีสดๆ เนื้อแน่น หวานธรรมชาติ</div>
+      <div class="order-price">฿80</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c82.jpg" alt="ข้าวต้มปลาและกุ้ง">
+    <div class="order-content">
+      <div class="order-title">ข้าวต้มปลาและกุ้ง</div>
+      <div class="order-description">ข้าวต้มรวมปลาและกุ้งตัวโตๆ</div>
+      <div class="order-price">฿100</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c83.jpg" alt="ลวกจิ้มปลา">
+    <div class="order-content">
+      <div class="order-title">ลวกจิ้มปลา</div>
+      <div class="order-description">เนื้อปลาลวกจิ้มพร้อมน้ำจิ้มเต้าเจี้ยวรสเด็ด</div>
+      <div class="order-price">฿120</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c84.jpg" alt="ยำปลาแซลมอน">
+    <div class="order-content">
+      <div class="order-title">ยำปลาแซลมอน</div>
+      <div class="order-description">ยำปลาแซลมอนสด รสจัดจ้าน</div>
+      <div class="order-price">฿150</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอื่น?</p>
+  <a href="งาน6.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 นายหน่องข้าวต้มปลา | โทร: 089-123-4567
+</footer>
+
+</body>
+</html>

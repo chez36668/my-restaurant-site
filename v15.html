@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>สภาโจ๊ก</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fefefe;
+      color: #2f2f2f;
+    }
+
+    header {
+      background-color: #455a64;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 1px solid #cfd8dc;
+      border-radius: 15px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #263238;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #546e7a;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1.05rem;
+      font-weight: bold;
+      color: #009688;
+      margin-bottom: 1rem;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #009688;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #00796b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #eceff1;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  สภาโจ๊ก
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍚 แผนที่ร้านสภาโจ๊ก ระยอง
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    โจ๊กหมูร้อนๆ เครื่องแน่น ไข่ลวกเยิ้มๆ หอมซุปกระดูกหมูแท้ เปิดเช้ารับวันใหม่ในตัวเมืองระยอง บรรยากาศดีใกล้ถนนสุขุมวิท
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.911019235697!2d101.2480765!3d12.6790716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fc7351d8890b%3A0xca715e6db74114fa!2z4Liq4Lih4LiU4Lij4LmA4LiV4Liq4Liq!5e0!3m2!1sth!2sth!4v1721112523512!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c25.jpg" alt="โจ๊กประธานสภา">
+    <div class="order-content">
+      <div class="order-title">โจ๊กประธานสภา</div>
+      <div class="order-description">โจ๊กหมู+เครื่องใน+ไข่+หมี่กรอบ ครบชุดแบบผู้นำ</div>
+      <div class="order-price">฿65</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c26.jpg" alt="โจ๊กสมาชิกสามัญ">
+    <div class="order-content">
+      <div class="order-title">โจ๊กสมาชิกสามัญ</div>
+      <div class="order-description">โจ๊กหมูล้วนร้อนๆ พร้อมขิงซอย ต้นหอม พริกไทย</div>
+      <div class="order-price">฿35</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c27.jpg" alt="โจ๊กใส่ไข่">
+    <div class="order-content">
+      <div class="order-title">โจ๊กใส่ไข่</div>
+      <div class="order-description">เพิ่มไข่ลวกหรือไข่เยี่ยวม้าได้ตามใจชอบ</div>
+      <div class="order-price">฿40</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c28.jpg" alt="ชาร้อน / ชาเย็น">
+    <div class="order-content">
+      <div class="order-title">ชาร้อน / ชาเย็น</div>
+      <div class="order-description">มีให้เลือกทั้งแบบไทยและใบเตย หอม สดชื่น</div>
+      <div class="order-price">฿20</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอื่น?</p>
+  <a href="งาน3.html" class="back-button">← ย้อนกลับ</a>
+</section>
+
+<footer>
+  © 2025 สภาโจ๊ก | โทร: 080-112-3344 | เปิดทุกวัน 05:00 - 11:00 น. | “ที่ประชุมของคนรักโจ๊ก”
+</footer>
+
+</body>
+</html>

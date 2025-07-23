@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านนัดพบ ก๋วยเตี๋ยวเรือ ผัดไทย เย็นตาโฟทรงเครื่อง</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffaf0;
+      color: #3e2723;
+    }
+
+    header {
+      background-color: #5d4037;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #d7ccc8;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #5d4037;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #bf360c;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #8d6e63;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #4e342e;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #8d6e63;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #4e342e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #f3e5ab;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านนัดพบ ก๋วยเตี๋ยวเรือ ผัดไทย เย็นตาโฟทรงเครื่อง
+</header>
+<section class="map-section" style="background-color: #fffef8; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #c0392b; margin-bottom: 1rem;">
+    🍜 แผนที่ร้านนัดพบ ก๋วยเตี๋ยวเรือ – ผัดไทย – เย็นตาโฟ
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านยอดฮิตสำหรับคนรักก๋วยเตี๋ยวครบเครื่อง! อยู่ใกล้แยกเนินสำลี ระยอง เดินทางสะดวก มีเมนูร้อน ๆ หอม ๆ พร้อมเสิร์ฟ
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9504921826777!2d101.268341!3d12.6967619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fd8f5dd606ed%3A0x6ae3a8395ad4a8e2!2z4Lia4LmJ4Liy4Lih4LiZ4Li04Lij4Liw4LmA4LiB4Lil4LiZ4Li04LiHIOC4qOC4teC4oeC5gOC4meC5ieC4suC4geC4reC4o-C4teC4p-C4oQ!5e0!3m2!1sth!2sth!4v1721045290606!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/อาหาร21.jpg" alt="ก๋วยเตี๋ยวเรือหมูน้ำตก">
+    <div class="order-content">
+      <div class="order-title">ก๋วยเตี๋ยวเรือหมูน้ำตก</div>
+      <div class="order-description">น้ำซุปเข้มข้น หอมเครื่องเทศไทยแท้ หมูนุ่มลิ้น</div>
+      <div class="order-price">฿40</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร22.jpg" alt="ผัดไทยกุ้งสด">
+    <div class="order-content">
+      <div class="order-title">ผัดไทยกุ้งสด</div>
+      <div class="order-description">ผัดเส้นเหนียวนุ่ม รสกลมกล่อม พร้อมกุ้งตัวโต</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร23.jpg" alt="เย็นตาโฟทรงเครื่อง">
+    <div class="order-content">
+      <div class="order-title">เย็นตาโฟทรงเครื่อง</div>
+      <div class="order-description">เครื่องแน่นจัดเต็ม รสชาติเปรี้ยวหวานเผ็ดลงตัว</div>
+      <div class="order-price">฿55</div>
+    </div>
+  </div>
+</section>
+<section class="back-section">
+  <p>กลับไปหน้าเมนูรวม?</p>
+  <a href="งาน1.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ร้านนัดพบ ก๋วยเตี๋ยวเรือ ผัดไทย เย็นตาโฟ | โทร: 089-234-5678
+</footer>
+
+</body>
+</html>

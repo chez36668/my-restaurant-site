@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านข้าวต้มศรีสุพรรณ</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #f5f5dc; /* Beige */
+      color: #5d4037; /* Brown */
+    }
+
+    header {
+      background-color: #8d6e63; /* Light Brown */
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #d7ccc8; /* Lighter Brown border */
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #6d4c41; /* Slightly darker brown */
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #795548; /* Brown */
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #a1887f; /* Muted Brown */
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .order-button:hover {
+      background-color: #5d4037; /* Darker brown */
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #a1887f; /* Muted Brown */
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #5d4037; /* Darker brown */
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #efebe9; /* Very light beige */
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านข้าวต้มศรีสุพรรณ
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍚 แผนที่ร้านข้าวต้มศรีสุพรรณ
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านข้าวต้มศรีสุพรรณ รสชาติดี บรรยากาศกันเองในระยอง
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5497720518267!2d101.2971338!3d12.6708285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fd0ea96c3cbd%3A0x230050c05f9c8fd!2z4Lit4Lij4Lix4Lij4LiA4LmB4Liy4LmJ4Liy4LiB4LiB4LmJ4LmA4LiX4LmJ4Liy4LiZ4Lij4LmA!5e0!3m2!1sth!2sth!4v1721116963018!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c85.jpg" alt="ผักบุ้งไฟแดง">
+    <div class="order-content">
+      <div class="order-title">ผักบุ้งไฟแดง</div>
+      <div class="order-description">ผักบุ้งกรอบๆ ผัดไฟแดง รสจัดจ้าน</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c86.jpg" alt="ยำปลาสลิด">
+    <div class="order-content">
+      <div class="order-title">ยำปลาสลิด</div>
+      <div class="order-description">ปลาสลิดทอดกรอบ คลุกเคล้ากับน้ำยำรสเด็ด</div>
+      <div class="order-price">฿80</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c87.jpg" alt="ต้มแซ่บขาไก่">
+    <div class="order-content">
+      <div class="order-title">ต้มแซ่บขาไก่</div>
+      <div class="order-description">ขาไก่นุ่มๆ ในน้ำต้มแซ่บสุดซี้ด</div>
+      <div class="order-price">฿70</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c88.jpg" alt="หมูสับผัดหนำเลี๊ยบ">
+    <div class="order-content">
+      <div class="order-title">หมูสับผัดหนำเลี๊ยบ</div>
+      <div class="order-description">หมูสับผัดกับหนำเลี๊ยบหอมๆ เข้ากันสุดๆ</div>
+      <div class="order-price">฿70</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอื่น?</p>
+  <a href="งาน6.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ร้านข้าวต้มศรีสุพรรณ | โทร: 092-313-6704
+</footer>
+
+</body>
+</html>

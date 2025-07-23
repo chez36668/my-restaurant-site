@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านเจ๊ลั้ง ชวนชิม</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffdf7;
+      color: #4e342e;
+    }
+
+    header {
+      background-color: #8d6e63;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #e0cfc0;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #5d4037;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #6d4c41;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #a1887f;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #795548;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #a1887f;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #6d4c41;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #f3e5ab;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านเจ๊ลั้ง ชวนชิม
+</header>
+<section class="map-section" style="background-color: #fdfbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #8e44ad; margin-bottom: 1rem;">
+    🍲 แผนที่ร้านเจ๊ลั้ง ชวนชิม
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านอาหารตามสั่งชื่อดังในระยอง ย่านบ้านฉาง-ตะพง บรรยากาศกันเอง รสมือแม่ครัวดั้งเดิม ราคาย่อมเยา
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.261805137504!2d101.2526188!3d12.6838686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fdaf3180e875%3A0xce7599e4242dd438!2z4Lij4LmJ4Liy4LiZ4LmA4LiI4LmK4Lil4Lix4LmJ4LiHIOC4iuC4p-C4meC4iuC4tOC4oQ!5e0!3m2!1sth!2sth!4v1721043701153!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/อาหาร41.jpg" alt="เส้นเล็กต้มยำ">
+    <div class="order-content">
+      <div class="order-title">เส้นเล็กต้มยำหมูสับ</div>
+      <div class="order-description">รสชาติเข้มข้น ใส่พริกมะนาวแท้ๆ พร้อมหมูสับเน้นๆ</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร42.jpg" alt="บะหมี่แห้งหมูแดง">
+    <div class="order-content">
+      <div class="order-title">บะหมี่แห้งหมูแดง</div>
+      <div class="order-description">หมูแดงหอมหวาน เส้นเหนียวนุ่ม โรยกระเทียมเจียว</div>
+      <div class="order-price">฿55</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร43.jpg" alt="เกี๊ยวน้ำหมู">
+    <div class="order-content">
+      <div class="order-title">เกี๊ยวน้ำหมูเด้ง</div>
+      <div class="order-description">ไส้หมูแน่นๆ น้ำซุปกลมกล่อม สูตรเจ๊ลั้ง</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร44.jpg" alt="หมี่เหลืองต้มยำทะเล">
+    <div class="order-content">
+      <div class="order-title">หมี่เหลืองต้มยำทะเล</div>
+      <div class="order-description">ทะเลสดๆ กุ้ง หมึก ลูกชิ้น ปรุงต้มยำสูตรเฉพาะ</div>
+      <div class="order-price">฿65</div>
+    </div>
+  </div>
+</section>
+<section class="back-section">
+  <p>กลับไปหน้าเมนูรวม?</p>
+  <a href="งาน1.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ร้านเจ๊ลั้ง ชวนชิม | โทร: 080-567-8910
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>คนฮักอีสาน</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffaf5;
+      color: #4b3e2f;
+    }
+
+    header {
+      background-color: #a0522d;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2.3rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #f2e0d0;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #8b4513;
+    }
+
+    .order-description {
+      font-size: 1rem;
+      color: #5a4b3d;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #a0522d;
+      margin-bottom: 1rem;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #a0522d;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #8b4513;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #fceee1;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  คนฮักอีสาน
+</header>
+<section class="map-section" style="background-color: #fffdf8; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #c0392b; margin-bottom: 1rem;">
+    🌶️ แผนที่ร้าน คนฮักอีสาน
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    แซ่บนัวหัวม่วน! ร้านอาหารอีสานรสมือบ้านแท้ ๆ บรรยากาศกันเอง เมนูส้มตำ ไก่ย่าง ลาบ น้ำตก ข้าวเหนียวพร้อมเสิร์ฟทุกวัน
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.338600947528!2d101.2646154!3d12.6863151!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fc6e10f57e05%3A0x8a15b89d3515dc37!2z4Lio4Lih4LiH4Liq4Li24LiB4LmI4Li44LiZ4LmA4LiI4LiZ4LmM!5e0!3m2!1sth!2sth!4v1721051000000!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c5.jpg" alt="ส้มตำปลาร้าหอม">
+    <div class="order-content">
+      <div class="order-title">ส้มตำปลาร้าหอม</div>
+      <div class="order-description">ตำแซ่บหลาย ปลาร้าหอมแท้พาเว้าลาวนำ พริกสดขี้ม่อน</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c6.jpg" alt="แจ่วฮ้อนรวมมิตร">
+    <div class="order-content">
+      <div class="order-title">แจ่วฮ้อนรวมมิตร</div>
+      <div class="order-description">เนื้อหมู เนื้อวัว เส้นผักสด ครบเครื่องน้ำซุปแจ่วฮ้อนอีสานบ้านเฮา</div>
+      <div class="order-price">฿99</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c7.jpg" alt="ลาบหมูคั่วข้าวคั่ว">
+    <div class="order-content">
+      <div class="order-title">ลาบหมูคั่วข้าวคั่ว</div>
+      <div class="order-description">ลาบหมูใส่ตับนำ หอมข้าวคั่วนำมือ คลุกสมุนไพรหอมๆ</div>
+      <div class="order-price">฿70</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c8.jpg" alt="ซุปหน่อไม้ใบย่านาง">
+    <div class="order-content">
+      <div class="order-title">ซุปหน่อไม้ใบย่านาง</div>
+      <div class="order-description">สูตรดั้งเดิมจากยาย หน่อไม้หวานนัว ข้าวเบือครบรส</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>เบิ่งร้านอื่นกะได๋เด้อ</p>
+  <a href="งาน2.html" class="back-button">← ย้อนกลับเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 คนฮักอีสาน | โทร: 081-555-1122 | ม่วนซื่นทุกคำ ฮักบ้านเกิดทุกจาน
+</footer>
+
+</body>
+</html>

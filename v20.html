@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ส้มจี๊ดกาแฟสด กาแฟโบราณ น้ำปั่น</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffdf7;
+      color: #4e342e;
+    }
+
+    header {
+      background-color: #ff7043;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #ffccbc;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #5d4037;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #ef6c00;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #ffa726;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #ef6c00;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #ffa726;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #ef6c00;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #fff3e0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ส้มจี๊ดกาแฟสด กาแฟโบราณ น้ำปั่น
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍊 แผนที่ร้านส้มจี๊ดกาแฟสด กาแฟโบราณ น้ำปั่น
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านกาแฟสดและกาแฟโบราณ พร้อมเมนูน้ำปั่นหลากหลาย รสชาติเข้มข้น สดชื่นทุกแก้ว ใจกลางเมืองระยอง
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.9966836853873!2d101.2692355!3d12.6701105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fd2f056a8245%3A0xcf33a78ba0482d1c!2z4Liq4Li24Lih4Lir4LiB4LmA4LiI4LmA4LiZ4LiB4LiZ4Lix4LiU4Liq4Liy4LijIOC4quC4tOC4i-C4o-C5jCDguIHguLHguIrguKvguYzguK3guKfguJnguKI!5e0!3m2!1sth!2sth!4v1721114660841!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c45.jpg" alt="กาแฟสด">
+    <div class="order-content">
+      <div class="order-title">กาแฟสดอาราบิก้า</div>
+      <div class="order-description">หอมเข้มกลมกล่อม ชงสดแก้วต่อแก้ว หวานน้อยก็สั่งได้</div>
+      <div class="order-price">฿45</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c46.jpg" alt="โอเลี้ยง">
+    <div class="order-content">
+      <div class="order-title">โอเลี้ยงสูตรโบราณ</div>
+      <div class="order-description">เย็นชื่นใจ หอมกาแฟคั่วโบราณ สูตรดั้งเดิม</div>
+      <div class="order-price">฿30</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c47.jpg" alt="สตรอเบอรี่ปั่น">
+    <div class="order-content">
+      <div class="order-title">สตรอเบอรี่สมูทตี้</div>
+      <div class="order-description">เปรี้ยวหวานลงตัว ใช้ผลไม้แท้ สดชื่นสุดๆ</div>
+      <div class="order-price">฿40</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c48.jpg" alt="ชาเขียวปั่น">
+    <div class="order-content">
+      <div class="order-title">ชาเขียวมัทฉะปั่น</div>
+      <div class="order-description">เข้มข้น หวานมัน หอมชาแท้จากญี่ปุ่น</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอื่น?</p>
+  <a href="งาน4.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ส้มจี๊ดกาแฟสด กาแฟโบราณ น้ำปั่น | โทร: 085-678-9900
+</footer>
+
+</body>
+</html>

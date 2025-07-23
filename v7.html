@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านอาหารเพื่อนอีสาน</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fff8f5;
+      color: #3e2723;
+    }
+    header {
+      background-color: #d32f2f;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #ffcdd2;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .order-content {
+      padding: 1rem;
+    }
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+    .order-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #d32f2f;
+      margin-bottom: 1rem;
+    }
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .back-button {
+      background-color: #e57373;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    .back-button:hover {
+      background-color: #c62828;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #ffebee;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านอาหารเพื่อนอีสาน
+</header>
+<section class="map-section" style="background-color: #fffdf8; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #d35400; margin-bottom: 1rem;">
+    👫 แผนที่ร้านอาหารเพื่อนอีสาน
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านอาหารอีสานบ้าน ๆ แต่รสชาติไม่ธรรมดา! ส้มตำ ลาบ น้ำตก คอหมูย่าง พร้อมข้าวเหนียวนุ่ม ๆ เสิร์ฟร้อนทุกวัน
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.435129146279!2d101.2624716!3d12.6855206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fc725154f917%3A0xf9e5eef32581c95!2z4LiB4Liy4LiZ4LmA4LiI4LmK4Lil4Lix4LiZ4LmA4Lin4Li04Lih!5e0!3m2!1sth!2sth!4v1721049100000!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/อาหาร06.jpg" alt="ส้มตำปูปลาร้า">
+    <div class="order-content">
+      <div class="order-title">ส้มตำปูปลาร้า</div>
+      <div class="order-description">แซ่บซี๊ด ปลาร้าหอมแท้ๆ จากอีสาน</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร07.jpg" alt="ลาบหมู">
+    <div class="order-content">
+      <div class="order-title">ลาบหมู</div>
+      <div class="order-description">หมูสับรสจัดจ้าน หอมข้าวคั่ว</div>
+      <div class="order-price">฿80</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร08.jpg" alt="ต้มแซ่บกระดูกอ่อน">
+    <div class="order-content">
+      <div class="order-title">ต้มแซ่บกระดูกอ่อน</div>
+      <div class="order-description">ซุปรสแซ่บ พร้อมกระดูกอ่อนนุ่ม</div>
+      <div class="order-price">฿90</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร09.jpg" alt="ตำถาด">
+    <div class="order-content">
+      <div class="order-title">ตำถาด</div>
+      <div class="order-description">จัดเต็มเครื่องเคียง ครบครันทุกความแซ่บ</div>
+      <div class="order-price">฿120</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>ดูเมนูเพิ่มเติม?</p>
+  <a href="งาน2.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ร้านอาหารเพื่อนอีสาน | โทร: 086-123-4567
+</footer>
+
+</body>
+</html>

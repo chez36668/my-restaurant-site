@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านโจ๊กนายจั๊ว</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fffdf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #795548;
+      color: white;
+      padding: 1.8rem 0;
+      text-align: center;
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 1px solid #e0d2c2;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #5d4037;
+      margin-bottom: 0.4rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.6rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #795548;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 2.5rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #795548;
+      color: white;
+      padding: 0.7rem 1.6rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #5d4037;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.85rem;
+      background-color: #f3e7db;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านโจ๊กนายจั๊ว
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍚 แผนที่ร้านโจ๊กนายจั๊ว สวนศรีเมือง ระยอง
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านโจ๊กเจ้าดังในสวนศรีเมือง โจ๊กหมูร้อนๆ ไข่ลวกนุ่มๆ เครื่องแน่น ซุปหอมกระดูกหมูแท้ บรรยากาศเช้าสบายกลางเมืองระยอง
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.974737011971!2d101.27393149999999!3d12.6767805!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fc3fb247b0dd%3A0x230f886baac8e12c!2z4Lit4Lii4Lij4LmJ4Liy4LiZ4LmC4LiI4LmK4LiB4LiZ4Liy4Lii4LiI4Lix4LmK4Lin!5e0!3m2!1sth!2sth!4v1721111349860!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c21.jpg" alt="โจ๊กหมูนายจั๊ว">
+    <div class="order-content">
+      <div class="order-title">โจ๊กหมูนายจั๊ว</div>
+      <div class="order-description">หมูบดสูตรลับประจำร้าน โจ๊กเนียนนุ่ม หอมขิงซอย</div>
+      <div class="order-price">฿35</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c22.jpg" alt="โจ๊กใส่ไข่ลวก">
+    <div class="order-content">
+      <div class="order-title">โจ๊กใส่ไข่ลวก</div>
+      <div class="order-description">ไข่ลวกฟองใหญ่ เยิ้มๆ เพิ่มความกลมกล่อม</div>
+      <div class="order-price">฿40</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c23.jpg" alt="โจ๊กเครื่องในรวม">
+    <div class="order-content">
+      <div class="order-title">โจ๊กเครื่องในรวม</div>
+      <div class="order-description">เครื่องในลวกสุกกำลังดี หมูเด้ง ไข่ ขิง ครบเครื่อง</div>
+      <div class="order-price">฿50</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c24.jpg" alt="น้ำเต้าหู้ร้อน">
+    <div class="order-content">
+      <div class="order-title">น้ำเต้าหู้ร้อน</div>
+      <div class="order-description">สูตรโบราณ หวานน้อย กลิ่นถั่วเหลืองชัด</div>
+      <div class="order-price">฿15</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปดูร้านอื่น?</p>
+  <a href="งาน3.html" class="back-button">← ย้อนกลับเมนูรวม</a>
+</section>
+
+<footer>
+  © 2025 ร้านโจ๊กนายจั๊ว | โทร: 086-222-1122 | เปิดบริการทุกวัน 05:30 - 10:00 น.
+</footer>
+
+</body>
+</html>

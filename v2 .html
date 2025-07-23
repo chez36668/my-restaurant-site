@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ร้านก๋วยเตี๋ยวกุ๊งกิ๊ง@ระยอง</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fff8f5;
+      color: #3e2723;
+    }
+
+    header {
+      background-color: #ff7043;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #ffd1c1;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #ff7043;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #ff8a65;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      text-decoration: none;
+    }
+
+    .order-button:hover {
+      background-color: #e64a19;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #ff8a65;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #e64a19;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #fff0e6;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ร้านก๋วยเตี๋ยวกุ๊งกิ๊ง@ระยอง
+</header>
+<section class="map-section" style="background-color: #fffaf3; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #d35400; margin-bottom: 1rem;">
+    🍜 แผนที่ร้านก๋วยเตี๋ยวกุ๊งกิ๊ง @ ระยอง
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านก๋วยเตี๋ยวชื่อดังริมถนนสุขุมวิท ใกล้วัดป่าประดู่ จ.ระยอง รสชาติจัดจ้าน เสิร์ฟชามใหญ่สะใจ!
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.267224986928!2d101.2767667!3d12.6813944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fc40dd07402d%3A0x403ffc64b464e0f0!2z4Lia4LmJ4Liy4Lih4LiZ4Li04Lij4Liw4LmA4LiB4Lil4LiZ4Li04LiHIOC4q-C4suC4muC4hOC5gOC4guC4seC4reC4oQ!5e0!3m2!1sth!2sth!4v1721040999504!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/อาหาร01.jpg" alt="ก๋วยเตี๋ยวต้มยำกุ้ง">
+    <div class="order-content">
+      <div class="order-title">ก๋วยเตี๋ยวต้มยำกุ้งแม่น้ำ</div>
+      <div class="order-description">รสชาติจัดจ้านพร้อมกุ้งแม่น้ำตัวโต</div>
+      <div class="order-price">฿90</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร02.jpg" alt="ก๋วยเตี๋ยวเย็นตาโฟ">
+    <div class="order-content">
+      <div class="order-title">เย็นตาโฟทรงเครื่อง</div>
+      <div class="order-description">เครื่องแน่น น้ำซุปเข้มข้น สีสวยรสเด็ด</div>
+      <div class="order-price">฿70</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร03.jpg" alt="ก๋วยเตี๋ยวหมูตุ๋น">
+    <div class="order-content">
+      <div class="order-title">ก๋วยเตี๋ยวหมูตุ๋น</div>
+      <div class="order-description">หมูนุ่มเปื่อยละลายในปาก ซุปกลมกล่อม</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/อาหาร04.jpg" alt="เกี๊ยวกุ้งน้ำ">
+    <div class="order-content">
+      <div class="order-title">เกี๊ยวกุ้งน้ำ</div>
+      <div class="order-description">ไส้แน่นกุ้งเด้ง ซุปร้อนหอมกลิ่นกระเทียมเจียว</div>
+      <div class="order-price">฿65</div>
+    </div>
+  </div>
+</section>
+<section class="back-section">
+  <p>ต้องการดูเมนูอาหารเพิ่มเติม?</p>
+  <a href="งาน1.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ร้านก๋วยเตี๋ยวกุ๊งกิ๊ง@ระยอง | โทร: 086-123-4567
+</footer>
+
+</body>
+</html>

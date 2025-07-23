@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ปัญญาโภชนา สาขา 2</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Sarabun', sans-serif;
+      background-color: #fefdf8;
+      color: #3e2723;
+    }
+
+    header {
+      background-color: #795548;
+      color: white;
+      padding: 1.5rem 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .order-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .order-item {
+      background-color: #ffffff;
+      border: 2px solid #d7ccc8;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .order-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .order-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .order-content {
+      padding: 1rem;
+    }
+
+    .order-title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-description {
+      font-size: 0.95rem;
+      color: #5d4037;
+      margin-bottom: 0.5rem;
+    }
+
+    .order-price {
+      font-size: 1rem;
+      font-weight: bold;
+      color: #6d4c41;
+      margin-bottom: 1rem;
+    }
+
+    .order-button {
+      display: inline-block;
+      background-color: #a1887f;
+      color: white;
+      padding: 0.5rem 1.2rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .order-button:hover {
+      background-color: #5d4037;
+    }
+
+    .back-section {
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    .back-button {
+      display: inline-block;
+      background-color: #a1887f;
+      color: white;
+      padding: 0.8rem 1.8rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #5d4037;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      background-color: #efebe9;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  ปัญญาโภชนา สาขา 2
+</header>
+<section class="map-section" style="background-color: #f7fbff; padding: 3rem 1rem; text-align: center;">
+  <h2 style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;">
+    🍚 แผนที่ร้านป้าภาโพชนา สาขา 2
+  </h2>
+  <p style="font-size: 1rem; color: #555; margin-bottom: 1.5rem;">
+    ร้านป้าภาโพชนา สาขา 2 เสิร์ฟข้าวต้มร้อนๆ กับกับข้าวรสชาติจัดจ้านในระยอง
+  </p>
+  <div style="max-width: 1000px; margin: 0 auto; box-shadow: 0 6px 18px rgba(0,0,0,0.1); border-radius: 15px; overflow: hidden;">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.5885827455993!2d101.28439211562076!3d12.683643081051128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3102fd113bfd317f%3A0x534d7ab7cbc9f1e1!2z4Lit4Lij4Lix4Lin4LiE4Li44LiT4LiI4Li44LmL4LihIOC4reC4suC4q-C4suC4o-C4meC4suC4q-C4suC4oyDguJXguLLguKE!5e0!3m2!1sth!2sth!4v1721116688521!5m2!1sth!2sth"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+<section class="order-container">
+  <div class="order-item">
+    <img src="image4/c73.jpg" alt="ข้าวผัดปู">
+    <div class="order-content">
+      <div class="order-title">ข้าวผัดปู</div>
+      <div class="order-description">ข้าวหอมผัดแห้งใส่เนื้อปูเน้น ๆ ไม่หวงเครื่อง</div>
+      <div class="order-price">฿80</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c74.jpg" alt="เป็ดย่างราดข้าว">
+    <div class="order-content">
+      <div class="order-title">ข้าวหน้าเป็ดย่าง</div>
+      <div class="order-description">เป็ดย่างหนังกรอบ เนื้อนุ่ม น้ำราดหอมสูตรพิเศษ</div>
+      <div class="order-price">฿90</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c75.jpg" alt="ราดหน้าทะเล">
+    <div class="order-content">
+      <div class="order-title">ราดหน้าทะเล</div>
+      <div class="order-description">เส้นใหญ่ผัดหอม ราดน้ำร้อนใส่กุ้ง ปลาหมึก ลูกชิ้นปลา</div>
+      <div class="order-price">฿70</div>
+    </div>
+  </div>
+
+  <div class="order-item">
+    <img src="image4/c76.jpg" alt="ก๋วยเตี๋ยวคั่วไก่">
+    <div class="order-content">
+      <div class="order-title">ก๋วยเตี๋ยวคั่วไก่</div>
+      <div class="order-description">ไก่หมักนุ่ม เส้นกรอบนอกนุ่มใน คั่วกระทะหอม</div>
+      <div class="order-price">฿60</div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section">
+  <p>กลับไปร้านอื่น?</p>
+  <a href="งาน6.html" class="back-button">← กลับไปเมนูอาหาร</a>
+</section>
+
+<footer>
+  © 2025 ปัญญาโภชนา สาขา 2 | โทร: 085-000-7788
+</footer>
+
+</body>
+</html>
